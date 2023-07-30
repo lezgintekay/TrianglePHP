@@ -12,16 +12,16 @@
 
 
 function triangle($numberOfLine){
-    $line = 1 ;
+    $line = 1 ; //line counter initial value - satır sayacı başlangıç değeri
 
-    while ($line <= $numberOfLine){
+    while ($line <= $numberOfLine){ // Loops to draw each line - Her satırı çizmek için döngüye girer
 
-        for($column =1 ; $column<=$line; $column++){
+        for($column =1 ; $column<=$line; $column++){ // Loops to draw "O" characters on each line - Her satırda "O" karakterlerini çizmek için döngüye girer
 
             echo "O";
         }
         echo "<br>";
-        $line++;
+        $line++; // Increment the number of lines by one to move to the next line. - Bir sonraki satıra geçmek için satır sayısını bir arttırır
     }
 
 }
