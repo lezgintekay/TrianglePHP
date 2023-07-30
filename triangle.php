@@ -11,7 +11,7 @@
 <?php
 
 
-function ucgen($numberOfLine){
+function triangle($numberOfLine){
     $line = 1 ;
 
     while ($line <= $numberOfLine){
@@ -26,7 +26,7 @@ function ucgen($numberOfLine){
 
 }
 
-ucgen(15);
+triangle(15);
 
 ?>
 
